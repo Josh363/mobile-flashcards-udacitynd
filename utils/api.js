@@ -54,7 +54,7 @@ export const removeDeck = async (title) => {
   }
 }
 
-export const addCardToDeck = async (title, card) => {
+export const saveCardToDeck = async (title, card) => {
   try {
     const deck = await getDeck(title)
 
